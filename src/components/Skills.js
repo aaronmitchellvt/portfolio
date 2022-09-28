@@ -16,7 +16,7 @@ import Java from "../assets/java.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="skills" className="w-full h-105vh bg-[#0a192f] text-gray-300">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -40,35 +40,35 @@ const Skills = () => {
             <p className="my-4">NextJS</p>
           </div> */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Bootstrap} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-7" src={Bootstrap} alt="HTML icon" />
             <p className="my-4">Bootstrap</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Postgres} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-4" src={Postgres} alt="HTML icon" />
             <p className="my-4">Postgres</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-5" src={JavaScript} alt="HTML icon" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-5" src={ReactImg} alt="HTML icon" />
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-5" src={GitHub} alt="HTML icon" />
             <p className="my-4">GITHUB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-5" src={Node} alt="HTML icon" />
             <p className="my-4">NODE JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-5" src={Mongo} alt="HTML icon" />
             <p className="my-4">MONGO DB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={AWS} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-5" src={AWS} alt="HTML icon" />
             <p className="my-4">AWS</p>
           </div>
 
