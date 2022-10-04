@@ -2,7 +2,7 @@
 import React from 'react';
 // import WorkImg from '../assets/workImg.jpeg';
 // import realEstate from '../assets/realestate.jpg';
-import headcount from '../assets/headcount_screenshot.png';
+import headcount from '../assets/headcount_4.png';
 import portfolio from '../assets/portfolio_screenshot.png';
 import blog from '../assets/blog_screenshot.png';
 import holiday from '../assets/holiday-screenshot.png';
@@ -35,6 +35,11 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
+              <a href='https://headcount-bt.herokuapp.com/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
                 <a href='https://github.com/aaronmitchellvt/headcount'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
