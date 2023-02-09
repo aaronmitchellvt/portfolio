@@ -3,15 +3,14 @@ import React from "react";
 import HTML from "../assets/html.png";
 import Postgres from "../assets/postgres_logo.png";
 import Bootstrap from "../assets/bootstrap_logo.png";
-import Next from "../assets/next-logo.png";
+import Next from "../assets/next-js.png";
 import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
-import AWS from "../assets/aws.png";
+import NextAuth from "../assets/next-auth.png";
 import GitHub from "../assets/github.png";
-import Mongo from "../assets/mongo.png";
-import Java from "../assets/java.png";
+import Query from "../assets/react-query-logo.png";
 import Tailwind from "../assets/tailwind.png";
 
 
@@ -31,15 +30,15 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
         <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-4" src={HTML} alt="HTML icon" />
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-4" src={CSS} alt="HTML icon" />
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="Tailwind icon" />
+            <img className="w-20 mx-auto mt-3" src={Tailwind} alt="Tailwind icon" />
             <p className="my-4">Tailwind</p>
           </div>
 
@@ -48,7 +47,7 @@ const Skills = () => {
             <p className="my-4">Bootstrap</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-4" src={Postgres} alt="HTML icon" />
+            <img className="w-20 mx-auto mt-5" src={Postgres} alt="HTML icon" />
             <p className="my-4">Postgres</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -68,17 +67,17 @@ const Skills = () => {
             <p className="my-4">NODE JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-5" src={Mongo} alt="HTML icon" />
-            <p className="my-4">MONGO DB</p>
+            <img className="w-20 mx-auto mt-5" src={Next} alt="HTML icon" />
+            <p className="my-4">Next</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-5" src={AWS} alt="HTML icon" />
-            <p className="my-4">AWS</p>
+            <img className="w-20 mx-auto mt-4" src={NextAuth} alt="HTML icon" />
+            <p className="my-2">Next Auth</p>
           </div>
 
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-6" src={Java} alt="HTML icon" />
-            <p className="my-4">Java</p>
+            <img className="w-20 mx-auto mt-6" src={Query} alt="HTML icon" />
+            <p className="my-4">React Query</p>
           </div>
 
         </div>

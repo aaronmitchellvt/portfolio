@@ -19,11 +19,13 @@ const About = () => {
           <div>
             <p>
               I am passionate about developing excellent applications that make
-              a difference in the lives of those that use it. My focus has been
-              creating software based on the PERN stack but I am adaptable and
-              ready to use my experience to work within your tech
-              infrastructure. I am a junior full stack developer that is eager
-              to learn and contribute.
+              a difference in the lives of those that use it. I have completed a
+              3-month co-op, where I gained hands-on experience working with
+              technologies such as Next, TypeScript, REST APIs, and Node. I also
+              completed a full stack coding bootcamp, where I honed my skills
+              and deepened my understanding of web development. With my skills
+              and experience, I am confident in my ability to bring value to any
+              team and any project.
             </p>
           </div>
         </div>
