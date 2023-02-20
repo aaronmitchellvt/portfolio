@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -23,6 +22,11 @@ const Navbar = () => {
         <li>
           <Link to="about" smooth={true} duration={500}>
             About
+          </Link>
+        </li>
+        <li>
+          <Link to="experience" smooth={true} duration={500}>
+            Experience
           </Link>
         </li>
         <li>
@@ -63,6 +67,11 @@ const Navbar = () => {
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            Experience
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -115,7 +124,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/14icY2x7tkCGCgHcVDHmNg2Hb2kVRyhqs/view?usp=share_link"
+              href="https://drive.google.com/file/d/1MvfOsG85rX8agv-So-faVMco1sGJN5km/view?usp=share_link"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

@@ -1,14 +1,8 @@
 
 import React from 'react';
-// import WorkImg from '../assets/workImg.jpeg';
-// import realEstate from '../assets/realestate.jpg';
 import headcount from '../assets/rollcall-img.png';
-import portfolio from '../assets/portfolio_screenshot.png';
 import blog from '../assets/blog_screenshot.png';
 import holiday from '../assets/holiday-screenshot.png';
-
-
-
 
 const Work = () => {
   return (

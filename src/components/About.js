@@ -19,13 +19,11 @@ const About = () => {
           <div>
             <p>
               I am passionate about developing excellent applications that make
-              a difference in the lives of those that use it. I have completed a
-              3-month co-op, where I gained hands-on experience working with
-              technologies such as Next, TypeScript, REST APIs, and Node. I also
-              completed a full stack coding bootcamp, where I honed my skills
-              and deepened my understanding of web development. With my skills
-              and experience, I am confident in my ability to bring value to any
-              team and any project.
+              a difference in the lives of those that use it. I have experience
+              building quality full-stack applications at two commercial
+              software companies. Received endorsed ranking, awarded to top performers, at immersive full-stack bootcamp.
+              With my skills and experience, I am confident in my ability to
+              bring value to any team and any project.
             </p>
           </div>
         </div>
