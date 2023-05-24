@@ -3,6 +3,7 @@ import React from 'react';
 import headcount from '../assets/rollcall-img.png';
 import blog from '../assets/blog_screenshot.png';
 import holiday from '../assets/holiday-screenshot.png';
+import delta from '../assets/delta_energy.png'
 
 const Work = () => {
   return (
@@ -62,6 +63,25 @@ const Work = () => {
           </div> */}
 
           <div
+            style={{ backgroundImage: `url(${delta})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                NextJS Application
+              </span>
+              <div className='pt-8 text-center'>
+
+                <a href='https://github.com/aaronmitchellvt/nextjs-blog'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
             style={{ backgroundImage: `url(${holiday})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
@@ -81,24 +101,7 @@ const Work = () => {
 
             {/* Grid Item */}
 
-          <div
-            style={{ backgroundImage: `url(${blog})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                NextJS Application
-              </span>
-              <div className='pt-8 text-center'>
 
-                <a href='https://github.com/aaronmitchellvt/nextjs-blog'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
 
           {/* <div
             style={{ backgroundImage: `url(${realEstate})` }}

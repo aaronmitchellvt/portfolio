@@ -19,7 +19,7 @@ const Experience = () => {
               Brandon Systems
             </p>
             <div className="flex flex-col items-start justify-items-start text-start">
-              <ul className="text-black list-disc p-4">
+              <ul className="text-black list-disc p-2">
                 <li>
                   Contributed to team implementing a secure insurance portal,
                   which was completed successfully
@@ -45,14 +45,14 @@ const Experience = () => {
               Cairn Surgical
             </p>
             <div className="flex flex-col items-start justify-items-start text-start">
-              <ul className="text-black list-disc p-4">
+              <ul className="text-black list-disc p-2">
                 <li>
                   Part of a team delivering a web portal for custom medical
                   device manufacturing
                 </li>
                 <li>
-                  Implemented automated Python Selenium test system used in
-                  CI/CD Jenkins pipeline
+                  Implemented automated Python Selenium test system (over 300
+                  tests), using CI/CD Jenkins pipeline
                 </li>
                 <li>
                   Enhanced and fixed bugs in front end Vue.js components to
@@ -61,6 +61,10 @@ const Experience = () => {
                 <li>
                   Added features to back end Python Flask system utilizing
                   PostgreSQL database
+                </li>
+                <li>
+                  Comment from CTO: "the CI/CD pipeline and automated tests are
+                  critical to the success of the project and company"
                 </li>
               </ul>
             </div>
