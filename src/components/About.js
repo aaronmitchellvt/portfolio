@@ -20,7 +20,7 @@ const About = () => {
             <p>
               I am passionate about developing excellent applications that make
               a difference in the lives of those that use it. I have experience
-              building quality full-stack applications at two commercial
+              building quality full-stack applications at three commercial
               software companies. Received endorsed ranking, awarded to top performers, at immersive full-stack bootcamp.
               With my skills and experience, I am confident in my ability to
               bring value to any team and any project.
