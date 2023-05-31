@@ -51,7 +51,7 @@ const Experience = () => {
                   device manufacturing
                 </li>
                 <li>
-                  Implemented automated Python Selenium test system (over 300
+                  Implemented automated Python Selenium test system (over 400
                   tests), using CI/CD Jenkins pipeline
                 </li>
                 <li>
@@ -65,6 +65,29 @@ const Experience = () => {
                 <li>
                   Comment from CTO: "the CI/CD pipeline and automated tests are
                   critical to the success of the project and company"
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="h-80 bg-gray-300 rounded-md text-center p-4">
+            <p className="text-2xl text-center font-bold inline border-b-4 text-[#0a192f] border-pink-600">
+              {" "}
+              Delta Energy
+            </p>
+            <div className="flex flex-col items-start justify-items-start text-start">
+              <ul className="text-black list-disc p-2">
+                <li>
+                Created proof of concept application using NextJS that enables users to register and provide relevant information related to home energy consumption
+                </li>
+                <li>
+                  System processes user input to enable visualization of advantages of switching to a more efficient heat pump as opposed to user’s current system
+                </li>
+                <li>
+                  Implemented algorithm to recommend suitable heat pumps specific to a user’s home
+                </li>
+                <li>
+                  Leveraged PostgreSQL database and cloud environment using Vercel
                 </li>
               </ul>
             </div>
